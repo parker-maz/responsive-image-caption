@@ -49,3 +49,26 @@ html {
 }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+html {
+  font-size: 110%;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.dino-fig {
+  position: relative;
+}
+
+.fig-body {
+  background-color: rgba(0, 0, 0, .3);
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  max-width: 20em;
+  border-radius: 10px;
+}
+
+}
